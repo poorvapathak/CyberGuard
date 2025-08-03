@@ -49,3 +49,4 @@ for col in sample_cols:
     plt.tight_layout()
     plt.savefig(f"outlier_{col}.png")
     print(f"📊 Saved boxplot for {col} as 'outlier_{col}.png'")
+
